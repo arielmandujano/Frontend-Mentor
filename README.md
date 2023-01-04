@@ -10,3 +10,4 @@ The implementations in this repository are based on my basic knowledge of HTML, 
 ## List of challenges in this repository:
 
 - [QR code component](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). Date: Jan 03 2023. 
+- [Product preview card component](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa). Date Jan 04 2023.
