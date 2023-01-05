@@ -121,3 +121,37 @@ body {
 .add-to-cart-button .cart-icon {
     margin-right: 16px;
 }
+
+@media (min-width: 800px) {
+    .card {
+        display: flex;
+        width: 750px;
+        height: 590px;
+        background-color: var(--white);
+        border-radius: 20px;
+        overflow: hidden;
+        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    .card .desktop-image {
+        display: unset;
+    }
+    .info {
+        margin: 25px;
+        height: unset;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .info .mobile-image {
+        display: none;
+    }
+    .product-information {
+        justify-content: space-evenly;
+    }
+    .product-information p {
+        font-size: var(--lg);
+    }
+    .add-to-cart-button {
+        margin: 0;
+    }
+}
